@@ -151,6 +151,16 @@ img::-moz-selection {
 .bio {
     padding:30px;
 }
+.carousel {
+    padding-bottom: 30px;
+}
+
+.carousel-indicators li {
+    background-color: gray;
+}
+.carousel-indicators .active {
+    background-color: #000;
+}
 
 @media (min-width: 992px) {
   #mainNav {
