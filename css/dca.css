@@ -33,11 +33,11 @@ h6 {
   font-weight: 700;
   font-family: 'Avenir Next', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
-
+/*
 section {
   padding: 100px 0;
 }
-
+*/
 section h2.section-heading {
   font-size: 36px;
   font-color: #222222;
@@ -55,13 +55,13 @@ section h3.section-subheading {
   text-transform: none;
   font-family: 'Avenir Next', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
-
+/*
 @media (min-width: 768px) {
   section {
     padding: 100px 0px;
   }
 }
-
+*/
 .btn {
   font-family: 'Avenir Next', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
@@ -144,6 +144,14 @@ img::-moz-selection {
   color: #fec503;
 }
 
+.bio-image {
+    margin: 30px;
+}
+
+.bio {
+    padding:30px;
+}
+
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 0px;
@@ -222,15 +230,17 @@ intro .intro-text .intro-lead-in {
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
+/*
     padding-top: 300px;
     padding-bottom: 200px;
+*/
   }
   header.masthead .intro-text .intro-heading {
     font-size: 18px;
     font-weight: 100;
     line-height: 26px;
   	color: #CCCCCC;
-    margin-bottom: 50px;
+/*    margin-bottom: 50px;*/
     font-family: 'Avenir Next', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
 }
