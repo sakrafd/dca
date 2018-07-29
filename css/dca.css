@@ -113,8 +113,7 @@ img::-moz-selection {
   font-size: 12px;
   right: 0;
   padding: 13px;
-/*  text-transform: uppercase; */
-  color: white;
+  color: #fec503;
   border: 0;
   background-color: #222222;
   font-family: 'Avenir Next', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -139,7 +138,6 @@ img::-moz-selection {
  	text-align: center;
 }
 
-
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
   color: #fec503;
 }
@@ -163,9 +161,8 @@ img::-moz-selection {
 }
 
 @media (min-width: 992px) {
-  #mainNav {
-    padding-top: 0px;
-    padding-bottom: 0px;
+   #mainNav {
+     padding: 1.1em 1em;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
@@ -179,16 +176,20 @@ img::-moz-selection {
     transition: all 0.3s;
   }
   #mainNav .navbar-nav .nav-item .nav-link {
-     padding: 1.1em 1em !important;
+     padding: 1.1em 2em !important;
   }
   #mainNav.navbar-shrink {
-    padding-top: 0;
-    padding-bottom: 0;
+    padding: 1.1em 1em;
     background-color: #222222;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
     padding: 12px 0;
+  }
+  #mainNav .navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
   }
 }
 
