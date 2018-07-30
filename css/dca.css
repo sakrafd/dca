@@ -243,11 +243,19 @@ intro .intro-text .intro-lead-in {
    header.masthead {
     padding-top: 7em;
    }
+
+   .instruments {
+    padding-top: 9em;
+   }
 }
 
 @media (min-width: 768px) {
    header.masthead {
     padding-top: 30em;
+   }
+
+   .instruments {
+    padding-top: 29em;
    }
 
   header.masthead .intro-text {
@@ -286,7 +294,7 @@ intro .intro-text .intro-lead-in {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: contain;
+  background-size: 100%;
 }
 
 footer {
