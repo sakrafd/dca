@@ -135,6 +135,15 @@ section h3.section-subheading {
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
   color: #fec503;
 }
+.dca-logo {
+   padding-top: 5em;
+   padding-bottom: 0em;
+}
+
+.dca-image {
+   padding-top:0em;
+   padding-bottom:2em;
+}
 
 .bio-image {
     margin: 30px;
@@ -188,7 +197,7 @@ section h3.section-subheading {
 }
 
 header.masthead {
-  padding-top: 5px;
+  padding-top: 1em;
   text-align: center;
   background-color: #222;
   background-image: url("../img/header-bg.png");
