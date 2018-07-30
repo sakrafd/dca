@@ -197,17 +197,16 @@ section h3.section-subheading {
 }
 
 header.masthead {
-  padding-top: 1em;
   text-align: center;
   background-color: #222;
   background-image: url("../img/header-bg.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100%;
 }
 
 
@@ -240,9 +239,17 @@ intro .intro-text .intro-lead-in {
   font-family: 'Avenir Next', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-
+@media (max-width: 768px) {
+   header.masthead {
+    padding-top: 7em;
+   }
+}
 
 @media (min-width: 768px) {
+   header.masthead {
+    padding-top: 30em;
+   }
+
   header.masthead .intro-text {
 /*
     padding-top: 300px;
