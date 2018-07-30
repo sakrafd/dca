@@ -47,6 +47,15 @@ section h2.section-heading {
   margin-bottom: 15px;
 }
 
+section h2.alt-section-heading {
+  font-size: 36px;
+  color: #CCC;
+  line-spacing: 49px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
 section h3.section-subheading {
   font-size: 16px;
   font-weight: 400;
@@ -87,23 +96,6 @@ section h3.section-subheading {
   box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
 }
 
-::-moz-selection {
-  background: #fed136;
-  text-shadow: none;
-}
-
-::selection {
-  background: #fed136;
-  text-shadow: none;
-}
-
-img::selection {
-  background: transparent;
-}
-
-img::-moz-selection {
-  background: transparent;
-}
 
 #mainNav {
   background-color: #222222;
@@ -261,6 +253,14 @@ intro .intro-text .intro-lead-in {
   text-transform: none;
 }
 
+.booking {
+  background-color: #CCCCCC;
+}
+
+.shows {
+  background-color: #222;
+}
+
 #instruments {
   padding-top: 0px;
   background-image: url("../img/instruments.png");
@@ -284,7 +284,7 @@ footer span.copyright {
   font-size: 90%;
   line-height: 40px;
   text-transform: none;
-  text-color: #CCC;
+  color: #CCC;
   text-align: center;
   font-family: 'Avenir Next', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -318,6 +318,14 @@ ul.social-buttons li a {
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: #fed136;
+}
+
+.text-booking {
+  color: #222;
+}
+
+.text-footer {
+  color: #CCC;
 }
 
 .carousel {
