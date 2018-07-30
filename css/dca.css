@@ -33,11 +33,11 @@ h6 {
   font-weight: 700;
   font-family: 'Avenir Next', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
-/*
+
 section {
-  padding: 100px 0;
+  padding: 0em 0em;
 }
-*/
+
 section h2.section-heading {
   font-size: 36px;
   font-color: #222222;
@@ -48,6 +48,8 @@ section h2.section-heading {
 }
 
 section h2.alt-section-heading {
+  padding-top: 1em;
+  padding-bottom: 0em;
   font-size: 36px;
   color: #CCC;
   line-spacing: 49px;
@@ -64,13 +66,13 @@ section h3.section-subheading {
   text-transform: none;
   font-family: 'Avenir Next', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
-/*
+
 @media (min-width: 768px) {
   section {
-    padding: 100px 0px;
+    padding: 0em 0em;
   }
 }
-*/
+
 .btn {
   font-family: 'Avenir Next', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
@@ -201,11 +203,11 @@ header.masthead {
 
 
 #intro {
-  padding-top: 20px;
-  padding-bottom: 5px;
+  padding-top: 2em;
+  padding-bottom: 1em;
   text-align: center;
-   background-color: #222;
-   text-color: #CCC;
+  background-color: #222;
+  text-color: #CCC;
 }
 /*header.masthead .intro-text {
   padding-top: 150px;
@@ -248,21 +250,19 @@ intro .intro-text .intro-lead-in {
   }
 }
 
-.service-heading {
-  margin: 15px 0;
-  text-transform: none;
-}
-
 .booking {
+  padding-top: 2em;
+  padding-bottom: 1em;
   background-color: #CCCCCC;
 }
 
 .shows {
+  padding-top: 0em;
+  padding-bottom: 1em;
   background-color: #222;
 }
 
-#instruments {
-  padding-top: 0px;
+.instruments {
   background-image: url("../img/instruments.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
