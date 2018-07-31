@@ -13,11 +13,14 @@ p {
 }
 
 a {
-  color: #fed136;
+   color: #222222;
+   font-weight: bold;
 }
 
 a:hover {
-  color: #fec503;
+   color: #666;
+   font-weight: bold;
+   text-decoration: none;
 }
 
 .text-primary {
@@ -143,6 +146,7 @@ section h3.section-subheading {
 .dca-image {
    padding-top:0em;
    padding-bottom:2em;
+   display:none;
 }
 
 .bio-image {
@@ -197,6 +201,7 @@ section h3.section-subheading {
 }
 
 header.masthead {
+  padding-top: 1em;
   text-align: center;
   background-color: #222;
   background-image: url("../img/header-bg.png");
@@ -217,18 +222,6 @@ header.masthead {
   background-color: #222;
   text-color: #CCC;
 }
-/*header.masthead .intro-text {
-  padding-top: 150px;
-  padding-bottom: 100px;
-}
-
-intro .intro-text .intro-lead-in {
-  font-size: 22px;
-  font-style: italic;
-  line-height: 22px;
-  margin-bottom: 25px;
-  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}*/
 
 .intro-text .intro-heading {
   font-size: 18px;
@@ -239,38 +232,64 @@ intro .intro-text .intro-lead-in {
   font-family: 'Avenir Next', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-@media (max-width: 768px) {
-   header.masthead {
-    padding-top: 7em;
-   }
+@media (min-width: 300px) {
+  .instruments {
+    padding-top: 5em;
+  }
+}
 
-   .instruments {
+@media (min-width: 576px) {
+  header.masthead {
+    padding-top: 10em;
+  }
+  .instruments {
     padding-top: 9em;
-   }
+  }
+  .dca-image {
+    display:inline;
+  }
 }
 
 @media (min-width: 768px) {
-   header.masthead {
-    padding-top: 30em;
-   }
-
-   .instruments {
-    padding-top: 29em;
-   }
-
-  header.masthead .intro-text {
-/*
-    padding-top: 300px;
-    padding-bottom: 200px;
-*/
+  header.masthead {
+    padding-top: 18em;
+  }
+  .instruments {
+    padding-top: 15em;
   }
   header.masthead .intro-text .intro-heading {
     font-size: 18px;
     font-weight: 100;
     line-height: 26px;
   	color: #CCCCCC;
-/*    margin-bottom: 50px;*/
     font-family: 'Avenir Next', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  .dca-image {
+    display:inline;
+  }
+}
+
+@media (min-width: 992px) {
+  header.masthead {
+    padding-top: 25em;
+  }
+  .instruments {
+    padding-top: 20em;
+  }
+  .dca-image {
+    display:inline;
+  }
+}
+
+@media (min-width: 1200px) {
+  header.masthead {
+    padding-top: 33em;
+  }
+  .instruments {
+    padding-top: 28em;
+  }
+  .dca-image {
+      display:inline;
   }
 }
 
