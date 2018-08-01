@@ -294,6 +294,11 @@ header.masthead {
   background-color: #CCCCCC;
 }
 
+.meetus {
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+
 .shows {
   padding-top: 0em;
   padding-bottom: 1em;
@@ -311,8 +316,16 @@ header.masthead {
   background-size: 100%;
 }
 
-footer {
+.media {
   padding: 25px 0;
+  background-color: #222;
+   text-color: #CCC;
+   text-align: center;
+}
+
+
+footer {
+  padding: 0px 0;
   background-color: #222;
    text-color: #CCC;
    text-align: center;
@@ -327,7 +340,7 @@ footer span.copyright {
   font-family: 'Avenir Next', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-footer ul.quicklinks {
+.media ul.quicklinks {
   font-size: 90%;
   line-height: 40px;
   margin-bottom: 0;
@@ -364,6 +377,10 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 .text-footer {
   color: #CCC;
+}
+
+.meetus {
+  background: #EEE;
 }
 
 .carousel {
