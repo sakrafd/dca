@@ -25,9 +25,15 @@ a:hover {
 h1,
 h2,
 h3,
-h4,
 h5,
 h6 {
+  font-weight: 700;
+  font-family: 'Avenir Next', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+
+h4 {
+  font-size: 20px;
   font-weight: 700;
   font-family: 'Avenir Next', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -145,21 +151,44 @@ section h3.section-subheading {
 }
 
 .bio-image {
-    margin: 30px;
+   padding-top: 0em;
+   padding-bottom: 2em;
+   padding-left: 6em;
+   padding-right: 0em;
 }
 
 .bio {
-    padding:30px;
+   font-size: 18px;
+   padding-top: 0em;
+   padding-bottom: 2em;
+   padding-left: -2em;
+   padding-right: 0em;
 }
 .carousel {
     padding-bottom: 30px;
 }
 
 .carousel-indicators li {
-    background-color: gray;
+   background-color: gray;
+   height: 6px;
+   width: 127px;
+   margin-right: 10px;
+   text-align: center;
+   text-indent: -10px;
+   font-size: 16px;
+   font-weight: 600;
+   line-height: 2em;
 }
 .carousel-indicators .active {
-    background-color: #000;
+   background-color: #000;
+   height: 6px;
+   width: 127px;
+   margin-right: 10px;
+   text-align: center;
+   text-indent: -10px;
+   font-size: 16px;
+   font-weight: 600;
+   line-height: 2em;
 }
 
 @media (min-width: 992px) {
@@ -296,7 +325,7 @@ header.masthead {
 
 .meetus {
   padding-top: 2em;
-  padding-bottom: 1em;
+  padding-bottom: 3em;
 }
 
 .shows {
@@ -383,9 +412,6 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   background: #EEE;
 }
 
-.carousel {
-  background: #EEE;
-}
 
 .carousel-cell {
   margin-right: 20px;
@@ -396,6 +422,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   display: block;
   height: 200px;
 }
+
 
 @media screen and ( min-width: 768px ) {
   .carousel-cell img {
