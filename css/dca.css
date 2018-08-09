@@ -8,14 +8,14 @@ p {
 }
 
 a {
-   color: #222222;
-   font-weight: bold;
+  color: #222222;
+  font-weight: bold;
 }
 
 a:hover {
-   color: #666;
-   font-weight: bold;
-   text-decoration: none;
+  color: #666;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .text-primary {
@@ -71,12 +71,6 @@ section h3.section-subheading {
   font-family: 'Avenir Next', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-@media (min-width: 768px) {
-  section {
-    padding: 0em 0em;
-  }
-}
-
 .btn {
   font-family: 'Avenir Next', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
@@ -101,7 +95,6 @@ section h3.section-subheading {
 .btn-primary:active, .btn-primary:focus {
   box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
 }
-
 
 #mainNav {
   background-color: #222222;
@@ -140,88 +133,65 @@ section h3.section-subheading {
   color: #fec503;
 }
 .dca-logo {
-   padding-top: 5em;
-   padding-bottom: 0em;
+  padding-top: 5em;
+  padding-bottom: 0em;
 }
 
 .dca-image {
-   padding-top:0em;
-   padding-bottom:2em;
-   display:none;
+  padding-top:0em;
+  padding-bottom:2em;
+  display:none;
 }
 
 .bio-image {
-   padding-top: 0em;
-   padding-bottom: 2em;
-   padding-left: 6em;
-   padding-right: 0em;
+  padding-top: 0em;
+  padding-bottom: 2em;
+  padding-left: 6em;
+  padding-right: 0em;
 }
 
 .bio {
-   font-size: 18px;
-   padding-top: 0em;
-   padding-bottom: 2em;
-   padding-left: -2em;
-   padding-right: 0em;
+  font-size: 18px;
+  padding-top: 0em;
+  padding-bottom: 2em;
+  padding-left: -2em;
+  padding-right: 0em;
 }
 .carousel {
-    padding-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 .carousel-indicators li {
-   background-color: gray;
-   height: 6px;
-   width: 127px;
-   margin-right: 10px;
-   text-align: center;
-   text-indent: -10px;
-   font-size: 16px;
-   font-weight: 600;
-   line-height: 2em;
+  background-color: gray;
+  height: 6px;
+  width: 127px;
+  margin-right: 10px;
+  text-align: center;
+  text-indent: -10px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 2em;
 }
 .carousel-indicators .active {
-   background-color: #000;
-   height: 6px;
-   width: 127px;
-   margin-right: 10px;
-   text-align: center;
-   text-indent: -10px;
-   font-size: 16px;
-   font-weight: 600;
-   line-height: 2em;
+  background-color: #000;
+  height: 6px;
+  width: 127px;
+  margin-right: 10px;
+  text-align: center;
+  text-indent: -10px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 2em;
 }
 
-@media (min-width: 992px) {
-   #mainNav {
-     padding: 1.1em 1em;
-    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
-    -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
-    transition: padding-top 0.3s, padding-bottom 0.3s;
-    border: none;
-    background-color: #222222;
-  }
-  #mainNav .navbar-brand {
-    font-size: 1.25em;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
-  }
-  #mainNav .navbar-nav .nav-item .nav-link {
-     padding: 1.1em 2em !important;
-  }
-  #mainNav.navbar-shrink {
-    padding: 1.1em 1em;
-    background-color: #222222;
-  }
-  #mainNav.navbar-shrink .navbar-brand {
-    font-size: 1.25em;
-    padding: 12px 0;
-  }
-  #mainNav .navbar-center {
-    position: absolute;
-    left: 50%;
-    transform: translatex(-50%);
-  }
+.carousel-cell {
+  margin-right: 20px;
+  overflow: hidden;
+}
+
+.carousel-cell img {
+  display: block;
+  height: 200px;
 }
 
 header.masthead {
@@ -238,7 +208,6 @@ header.masthead {
   background-size: 100%;
 }
 
-
 #intro {
   padding-top: 2em;
   padding-bottom: 1em;
@@ -251,70 +220,9 @@ header.masthead {
   font-size: 18px;
   margin-bottom: 25px;
 	line-height: 26px;
-	 color: #CCCCCC;
-	 text-align: center;
+  color: #CCCCCC;
+  text-align: center;
   font-family: 'Avenir Next', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
-@media (min-width: 300px) {
-  .instruments {
-    padding-top: 5em;
-  }
-}
-
-@media (min-width: 576px) {
-  header.masthead {
-    padding-top: 10em;
-  }
-  .instruments {
-    padding-top: 9em;
-  }
-  .dca-image {
-    display:inline;
-  }
-}
-
-@media (min-width: 768px) {
-  header.masthead {
-    padding-top: 18em;
-  }
-  .instruments {
-    padding-top: 15em;
-  }
-  header.masthead .intro-text .intro-heading {
-    font-size: 18px;
-    font-weight: 100;
-    line-height: 26px;
-  	color: #CCCCCC;
-    font-family: 'Avenir Next', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  }
-  .dca-image {
-    display:inline;
-  }
-}
-
-@media (min-width: 992px) {
-  header.masthead {
-    padding-top: 25em;
-  }
-  .instruments {
-    padding-top: 20em;
-  }
-  .dca-image {
-    display:inline;
-  }
-}
-
-@media (min-width: 1200px) {
-  header.masthead {
-    padding-top: 33em;
-  }
-  .instruments {
-    padding-top: 28em;
-  }
-  .dca-image {
-      display:inline;
-  }
 }
 
 .booking {
@@ -324,6 +232,7 @@ header.masthead {
 }
 
 .meetus {
+  background: #EEE;
   padding-top: 2em;
   padding-bottom: 3em;
 }
@@ -345,28 +254,15 @@ header.masthead {
   background-size: 100%;
 }
 
+.text-booking {
+  color: #222;
+}
+
 .media {
   padding: 25px 0;
   background-color: #222;
-   text-color: #CCC;
-   text-align: center;
-}
-
-
-footer {
-  padding: 0px 0;
-  background-color: #222;
-   text-color: #CCC;
-   text-align: center;
-}
-
-footer span.copyright {
-  font-size: 90%;
-  line-height: 40px;
-  text-transform: none;
-  color: #CCC;
+  text-color: #CCC;
   text-align: center;
-  font-family: 'Avenir Next', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .media ul.quicklinks {
@@ -400,32 +296,120 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   background-color: #666;
 }
 
-.text-booking {
-  color: #222;
+footer {
+  padding: 0px 0;
+  background-color: #222;
+  text-color: #CCC;
+  text-align: center;
+}
+
+footer span.copyright {
+  font-size: 90%;
+  line-height: 40px;
+  text-transform: none;
+  color: #CCC;
+  text-align: center;
+  font-family: 'Avenir Next', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .text-footer {
   color: #CCC;
 }
 
-.meetus {
-  background: #EEE;
+
+@media (min-width: 300px) {
+  .instruments {
+    padding-top: 5em;
+  }
 }
 
-
-.carousel-cell {
-  margin-right: 20px;
-  overflow: hidden;
+@media (min-width: 576px) {
+  header.masthead {
+    padding-top: 10em;
+  }
+  .instruments {
+    padding-top: 9em;
+  }
+  .dca-image {
+    display:inline;
+  }
 }
 
-.carousel-cell img {
-  display: block;
-  height: 200px;
-}
-
-
-@media screen and ( min-width: 768px ) {
+@media (min-width: 768px) {
+  section {
+    padding: 0em 0em;
+  }
+  header.masthead {
+    padding-top: 18em;
+  }
+  .instruments {
+    padding-top: 15em;
+  }
+  header.masthead .intro-text .intro-heading {
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 26px;
+    color: #CCCCCC;
+    font-family: 'Avenir Next', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  .dca-image {
+    display:inline;
+  }
   .carousel-cell img {
     height: 400px;
+  }
+}
+
+@media (min-width: 992px) {
+   header.masthead {
+    padding-top: 25em;
+   }
+   .instruments {
+    padding-top: 20em;
+   }
+   .dca-image {
+    display:inline;
+   }
+   #mainNav {
+    padding: 1.1em 1em;
+    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+    -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+    border: none;
+    background-color: #222222;
+  }
+  #mainNav .navbar-brand {
+    font-size: 1.25em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link {
+    padding: 1.1em 2em !important;
+  }
+  #mainNav.navbar-shrink {
+    padding: 1.1em 1em;
+    background-color: #222222;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    font-size: 1.25em;
+    padding: 12px 0;
+  }
+  #mainNav .navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+  }
+}
+
+@media (min-width: 1200px) {
+  header.masthead {
+    padding-top: 33em;
+  }
+  .instruments {
+    padding-top: 28em;
+  }
+  .dca-image {
+      display:inline;
   }
 }
