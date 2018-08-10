@@ -36,6 +36,7 @@ h4 {
   font-size: 20px;
   font-weight: 700;
   font-family: 'Avenir Next', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-align: center;
 }
 
 section {
@@ -152,50 +153,33 @@ section h3.section-subheading {
 
 .bio {
   display: block;
-  margin-left: auto;
-  margin-right: auto
   font-size: 18px;
-  padding-top: 0em;
+  padding-top: 2em;
   padding-bottom: 2em;
-  padding-left: 1em;
-  padding-right: 0em;
+  padding-left: 2em;
+  padding-right: 2em;
+  text-align: center;
 }
 
-.carousel {
-  padding-bottom: 30px;
+.flickity-page-dots {
+  bottom: -15px;
 }
 
-.carousel-indicators li {
-  background-color: gray;
-  height: 6px;
+.flickity-page-dots .dot {
+  height: 15px;
   width: 127px;
+  border-radius: 0;
   margin-right: 10px;
   text-align: center;
   text-indent: -10px;
   font-size: 16px;
   font-weight: 600;
-  line-height: 2em;
-}
-.carousel-indicators .active {
-  background-color: #000;
-  height: 6px;
-  width: 127px;
-  margin-right: 10px;
-  text-align: center;
-  text-indent: -10px;
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 2em;
 }
 
-.carousel-item {
+.carousel-cell {
+  width: 100%;
+  flex-direction: row;
   margin-right: 30px;
-  overflow: hidden;
-}
-
-.carousel-cell img {
-  display: block;
-  height: 200px;
 }
 
 header.masthead {
@@ -320,6 +304,9 @@ footer span.copyright {
   color: #CCC;
 }
 
+.carousel:after {
+  content: '';
+}
 
 @media screen and (min-width: 300px) {
   .instruments {
@@ -340,6 +327,9 @@ footer span.copyright {
 }
 
 @media screen and (min-width: 768px) {
+  h4 {
+    text-align: unset;
+  }
   section {
     padding: 0em 0em;
   }
@@ -359,9 +349,6 @@ footer span.copyright {
   .dca-image {
     display:inline;
   }
-  .carousel-cell img {
-    height: 400px;
-  }
   .bio-image {
    max-width: 338px;
    display: block;
@@ -378,6 +365,11 @@ footer span.copyright {
     padding-bottom: 2em;
     padding-left: 2em;
     padding-right: 0em;
+    text-align: unset;
+  }
+  .carousel:after {
+    content: 'flickity';
+    display: none;
   }
 }
 
@@ -437,6 +429,10 @@ footer span.copyright {
     margin-left: 0;
     margin-right: 0;
   }
+  .carousel:after {
+    content: 'flickity';
+    display: none;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -465,4 +461,23 @@ footer span.copyright {
     margin-left: 0;
     margin-right: 0;
   }
+  .carousel:after {
+    content: 'flickity';
+    display: none;
+  }
+}
+
+.flickity-button {
+  background: #333;
+}
+.flickity-button:hover {
+  background: #666;
+}
+.flickity-prev-next-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+}
+.flickity-button-icon {
+  fill: white;
 }

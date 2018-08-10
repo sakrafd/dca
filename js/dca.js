@@ -47,10 +47,4 @@
     $(".navbar").removeClass("d-none");
   })
 
-$('.main-carousel').flickity({
-  // options
-  cellAlign: 'left',
-  contain: true
-});
-
 })(jQuery); // End of use strict
