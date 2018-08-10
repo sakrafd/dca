@@ -144,6 +144,7 @@ section h3.section-subheading {
 }
 
 .bio-image {
+  max-width: 200px;
   display: block;
   margin-left: auto;
   margin-right: auto
@@ -320,13 +321,13 @@ footer span.copyright {
 }
 
 
-@media (min-width: 300px) {
+@media screen and (min-width: 300px) {
   .instruments {
     padding-top: 5em;
   }
 }
 
-@media (min-width: 576px) {
+@media screen and (min-width: 576px) {
   header.masthead {
     padding-top: 10em;
   }
@@ -338,7 +339,7 @@ footer span.copyright {
   }
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   section {
     padding: 0em 0em;
   }
@@ -362,6 +363,7 @@ footer span.copyright {
     height: 400px;
   }
   .bio-image {
+   max-width: 338px;
    display: block;
    margin-left: auto;
    margin-right: auto;
@@ -379,7 +381,7 @@ footer span.copyright {
   }
 }
 
-@media (min-width: 992px) {
+@media screen and (min-width: 992px) {
    header.masthead {
     padding-top: 25em;
    }
@@ -422,7 +424,7 @@ footer span.copyright {
   .bio-image {
     padding-top: 0em;
     padding-bottom: 2em;
-    padding-left: 1em;
+    padding-left: 0em;
     padding-right: 0em;
   }
   .bio {
@@ -437,7 +439,7 @@ footer span.copyright {
   }
 }
 
-@media (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   header.masthead {
     padding-top: 33em;
   }
@@ -450,14 +452,14 @@ footer span.copyright {
   .bio-image {
     padding-top: 0em;
     padding-bottom: 2em;
-    padding-left: 6em;
+    padding-left: 0em;
     padding-right: 0em;
   }
   .bio {
     font-size: 18px;
     padding-top: 0em;
     padding-bottom: 2em;
-    padding-left: 1em;
+    padding-left: 0em;
     padding-right: 0em;
     display: inline-block;
     margin-left: 0;
