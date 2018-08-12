@@ -64,7 +64,6 @@
             var h = content.substr(showChar, content.length - showChar);
 
             var html = c + '<span class="moreellipses">' + ellipsestext+ '&nbsp;</span><span class="morecontent"><span>' + h + '</span>&nbsp;&nbsp;<a href="" class="morelink">' + moretext + '</a></span>';
-
             $(this).html(html);
         }
       }
@@ -78,7 +77,7 @@
             $(this).addClass("less");
             $(this).html(lesstext);
         }
-        $(this).parent().prev().toggle();
+        $(this).parent().prev().toggle(); // hide ellipses
         $(this).prev().toggle();
         return false;
     });
