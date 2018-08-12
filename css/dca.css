@@ -221,7 +221,7 @@ header.masthead {
 
 .meetus {
   background: #EEE;
-  padding-top: 2em;
+  padding-top: 1em;
   padding-bottom: 3em;
 }
 
@@ -371,6 +371,9 @@ footer span.copyright {
     content: 'flickity';
     display: none;
   }
+  .more {
+    display: block;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -480,4 +483,10 @@ footer span.copyright {
 }
 .flickity-button-icon {
   fill: white;
+}
+.morecontent span {
+    display: none;
+}
+.morelink {
+    display: block;
 }
