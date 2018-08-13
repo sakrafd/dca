@@ -4,7 +4,7 @@ body {
 }
 
 p {
-  line-height: 1.75;
+  line-height: 1.5;
 }
 
 a {
@@ -44,10 +44,9 @@ section {
 }
 
 section h2.section-heading {
-  font-size: 36px;
+  font-size: 24px;
   font-color: #222222;
   line-spacing: 49px;
-  font-weight: bold;
   margin-top: 0;
   margin-bottom: 15px;
 }
@@ -55,10 +54,9 @@ section h2.section-heading {
 section h2.alt-section-heading {
   padding-top: 1em;
   padding-bottom: 0em;
-  font-size: 36px;
+  font-size: 24px;
   color: #CCC;
   line-spacing: 49px;
-  font-weight: bold;
   margin-top: 0;
   margin-bottom: 15px;
 }
@@ -176,6 +174,10 @@ section h3.section-subheading {
   font-weight: 600;
 }
 
+.carousel {
+   padding-top: 2em;
+}
+
 .carousel-cell {
   width: 100%;
   flex-direction: row;
@@ -221,7 +223,7 @@ header.masthead {
 
 .meetus {
   background: #EEE;
-  padding-top: 1em;
+  padding-top: 2em;
   padding-bottom: 3em;
 }
 
@@ -285,14 +287,14 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 
 footer {
-  padding: 0px 0;
+  padding: 1em 0;
   background-color: #222;
   text-color: #CCC;
   text-align: center;
 }
 
 footer span.copyright {
-  font-size: 90%;
+  font-size: 80%;
   line-height: 40px;
   text-transform: none;
   color: #CCC;
@@ -471,18 +473,7 @@ footer span.copyright {
 }
 
 .flickity-button {
-  background: #333;
-}
-.flickity-button:hover {
-  background: #666;
-}
-.flickity-prev-next-button {
-  width: 30px;
-  height: 30px;
-  border-radius: 5px;
-}
-.flickity-button-icon {
-  fill: white;
+   display: none;
 }
 .morecontent span {
   display: none;
