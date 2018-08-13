@@ -457,7 +457,7 @@ footer span.copyright {
 
 @media screen and (min-width: 1200px) {
   header.masthead {
-    padding-top: 45em;
+    padding-top: 34em;
   }
   .instruments {
     padding-top: 28em;
@@ -487,12 +487,20 @@ footer span.copyright {
   }
 }
 
+@media screen and (min-width: 1900px) {
+  header.masthead {
+     padding-top: 47em;
+  }
+}
+
 .flickity-button {
   display: none;
 }
+
 .morecontent span {
   display: none;
 }
+
 .morelink {
   margin-top: 1em;
   padding: 0.5em 1em;
