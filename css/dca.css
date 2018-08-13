@@ -128,12 +128,21 @@ section h3.section-subheading {
  	text-align: center;
 }
 
+.navbar {
+  padding: 0em 0em;
+}
+
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
   color: #fec503;
 }
+
 .dca-logo {
   padding-top: 5em;
   padding-bottom: 0em;
+}
+
+.logo-dca {
+ max-width: 82px;
 }
 
 .dca-image {
@@ -175,7 +184,7 @@ section h3.section-subheading {
 }
 
 .carousel {
-   padding-top: 2em;
+  padding-top: 2em;
 }
 
 .carousel-cell {
@@ -185,7 +194,7 @@ section h3.section-subheading {
 }
 
 header.masthead {
-  padding-top: 1em;
+  padding-top: 6em;
   text-align: center;
   background-color: #222;
   background-image: url("../img/header-bg.png");
@@ -311,14 +320,17 @@ footer span.copyright {
 }
 
 @media screen and (min-width: 300px) {
+  header.masthead {
+    padding-top: 6em;
+  }
   .instruments {
     padding-top: 5em;
   }
 }
 
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 567px) {
   header.masthead {
-    padding-top: 10em;
+    padding-top: 15em;
   }
   .instruments {
     padding-top: 9em;
@@ -336,7 +348,7 @@ footer span.copyright {
     padding: 0em 0em;
   }
   header.masthead {
-    padding-top: 18em;
+    padding-top: 14em;
   }
   .instruments {
     padding-top: 15em;
@@ -349,7 +361,10 @@ footer span.copyright {
     font-family: 'Avenir Next', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
   .dca-image {
-    display:inline;
+     display:inline;
+  }
+  .logo-dca {
+    max-width: 164px;
   }
   .bio-image {
    max-width: 338px;
@@ -379,16 +394,16 @@ footer span.copyright {
 }
 
 @media screen and (min-width: 992px) {
-   header.masthead {
+  header.masthead {
     padding-top: 25em;
-   }
-   .instruments {
+  }
+  .instruments {
     padding-top: 20em;
-   }
-   .dca-image {
+  }
+  .dca-image {
     display:inline;
-   }
-   #mainNav {
+  }
+  #mainNav {
     padding: 1.1em 1em;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
@@ -442,7 +457,7 @@ footer span.copyright {
 
 @media screen and (min-width: 1200px) {
   header.masthead {
-    padding-top: 33em;
+    padding-top: 45em;
   }
   .instruments {
     padding-top: 28em;
@@ -473,7 +488,7 @@ footer span.copyright {
 }
 
 .flickity-button {
-   display: none;
+  display: none;
 }
 .morecontent span {
   display: none;
