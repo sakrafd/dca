@@ -52,8 +52,6 @@ section h2.section-heading {
 }
 
 section h2.alt-section-heading {
-  padding-top: 1em;
-  padding-bottom: 0em;
   font-size: 24px;
   color: #CCC;
   line-spacing: 49px;
@@ -237,9 +235,15 @@ header.masthead {
 }
 
 .shows {
-  padding-top: 0em;
-  padding-bottom: 1em;
-  background-color: #222;
+  background-color: #FFF;
+  padding-top: 2em;
+  padding-bottom: 3em;
+  font-color: #222;
+}
+
+.shows a {
+  font-size: 80%;
+  font-weight: bold;
 }
 
 .instruments {
@@ -258,7 +262,8 @@ header.masthead {
 }
 
 .media {
-  padding: 25px 0;
+  padding-top: 2em;
+  padding-bottom: 3em;
   background-color: #222;
   text-color: #CCC;
   text-align: center;
@@ -309,6 +314,10 @@ footer span.copyright {
   color: #CCC;
   text-align: center;
   font-family: 'Avenir Next', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.text-show {
+  color: #222;
 }
 
 .text-footer {
