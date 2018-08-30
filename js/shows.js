@@ -6,13 +6,14 @@ function generateShowHtml(data) {
     var rowCount = 0;
     if(typeof(data[0]) === 'undefined' || data.length == 0 ) {
       html += '<div class="col-md-12"><p class="large">Nothing Scheduled right now. Check back soon.</p></div>';
+     $('#no-shows').append(html);
     } else {
 		  $.each(data, function( index, row ) {
         if (rowCount != 0) {
           html += '<div class="w-100 hidden-md-up"></div><div class="col-md-12"><hr></div><div class="w-100 hidden-md-up"></div>';
         }
         rowCount = rowCount +1;
-        html += '<div class="col-md-3">';
+        html += '<div class="col-md-3" style="font-size: 95%;">';
 				html += row[0];
 				html += '</div>';
 				html += '<div class="col-md-8">';
@@ -22,11 +23,14 @@ function generateShowHtml(data) {
         html += '</div>';
 				html += '<div class="col-md-1"><a target="_blank" href="';
 				html += row[3];
-				html += '">info</a></div>';
+				html += '">info</a>&nbsp;&nbsp;<a target="_blank" href="';
+				html += row[4];
+        html += '">map</a>';
+        html += '</div>';
      });
+     html += '</div>';
+     $('#show-csv').append(html);
 		};
-		html += '</div>';
-		$('#show-csv').append(html);
 	}
 
   $(document).ready(function(){
@@ -42,7 +46,7 @@ var data;
    error: function (xhr, ajaxOptions, thrownError) {
 
       var html = '<div class="row"><div class="col-md-12"><p class="large">Nothing Scheduled right now. Check back soon.</p></div></div>';
-		  $('#show-csv').append(html);
+		  $('#no-shows').append(html);
     }
  });
 });
