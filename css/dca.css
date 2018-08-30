@@ -250,6 +250,10 @@ header.masthead {
   font-weight: bold;
 }
 
+#show-csv {
+   text-align: center !important;
+}
+
 .instruments {
   background-image: url("../img/instruments.png");
   background-repeat: no-repeat;
@@ -407,6 +411,9 @@ footer span.copyright {
   }
   .more {
     display: block;
+  }
+  #show-csv {
+    text-align: left !important;
   }
 }
 

@@ -23,7 +23,7 @@ function generateShowHtml(data) {
         html += '</div>';
 				html += '<div class="col-md-1"><a target="_blank" href="';
 				html += row[3];
-				html += '">info</a>&nbsp;&nbsp;<a target="_blank" href="';
+				html += '">info</a>&nbsp;+&nbsp;<a target="_blank" href="';
 				html += row[4];
         html += '">map</a>';
         html += '</div>';
