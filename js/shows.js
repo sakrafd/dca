@@ -16,12 +16,12 @@ function generateShowHtml(data) {
         html += '<div class="col-md-3" style="font-size: 95%;">';
 				html += row[0];
 				html += '</div>';
-				html += '<div class="col-md-8">';
+				html += '<div class="col-md-7">';
 				html += row[1];
         html += '&nbsp;&mdash;&nbsp';
 				html += row[2];
         html += '</div>';
-				html += '<div class="col-md-1"><a target="_blank" href="';
+				html += '<div class="col-md-2"><a target="_blank" href="';
 				html += row[3];
 				html += '">info</a>&nbsp;+&nbsp;<a target="_blank" href="';
 				html += row[4];
