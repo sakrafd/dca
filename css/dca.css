@@ -199,7 +199,7 @@ header.masthead {
   padding-top: 6em;
   text-align: center;
   background-color: #222;
-  background-image: url("../img/header-bg.png");
+  background-image: url("../img/header.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -255,7 +255,7 @@ header.masthead {
 }
 
 .instruments {
-  background-image: url("../img/instruments.png");
+  background-image: url("../img/instruments-trio.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
